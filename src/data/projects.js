@@ -1,21 +1,30 @@
 export const projects = [
   {
     name: 'AI Resume Analyzer',
-    category: 'AI application',
-    status: 'Planned',
+    category: 'Browser prototype · keyword coverage',
+    status: 'Prototype',
     description:
-      'A focused tool to compare a resume with a role description and return structured, explainable feedback.',
-    stack: ['Python', 'FastAPI', 'LLM evaluation'],
-    href: '#contact',
+      'Compare resume text with role language using explainable keyword coverage. Runs locally; no AI model is connected.',
+    stack: ['JavaScript', 'Local processing', 'Transparent scoring'],
+    href: '/portfolio/projects/resume-fit/',
   },
   {
     name: 'Document Q&A',
-    category: 'Retrieval augmented generation',
-    status: 'Planned',
+    category: 'Browser prototype · document retrieval',
+    status: 'Prototype',
     description:
-      'A document workspace for asking questions with grounded answers and traceable source references.',
-    stack: ['Python', 'RAG', 'FastAPI'],
-    href: '#contact',
+      'Search sample notes and inspect matching passages with source labels. Retrieval is lexical; no LLM is connected.',
+    stack: ['JavaScript', 'Lexical retrieval', 'Source snippets'],
+    href: '/portfolio/projects/document-search/',
+  },
+  {
+    name: 'CSV Data Analyzer',
+    category: 'Browser prototype · data utility',
+    status: 'Prototype',
+    description:
+      'Profile a CSV locally with row counts, missing values, numeric summaries, and a safe preview. Excel support is not included yet.',
+    stack: ['JavaScript', 'CSV parsing', 'Local processing'],
+    href: '/portfolio/projects/csv-analyzer/',
   },
   {
     name: 'Business Knowledge Assistant',
@@ -31,7 +40,7 @@ export const projects = [
     category: 'Data utility',
     status: 'Planned',
     description:
-      'A practical way to inspect CSV and Excel data, ask useful questions, and surface patterns with context.',
+      'A practical way to inspect spreadsheet data, ask useful questions, and surface patterns with context.',
     stack: ['Python', 'Data analysis', 'Automation'],
     href: '#contact',
   },
