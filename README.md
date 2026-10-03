@@ -2,15 +2,15 @@
 
 **Software, AI & Automation**
 
-A portfolio for practical software engineering, AI applications, and business automation. The site is being built as a home for finished projects and honest case studies.
+A portfolio for practical software engineering, AI applications, and business automation. The site is a home for finished projects and honest case studies.
 
 ## Project status
 
-The portfolio foundation is in progress. The showcase ideas are marked as planned until each has a working implementation and a case study.
+The portfolio foundation is live in the repository. Showcase ideas are marked as planned until each has a working implementation and a case study.
 
 ## Local development
 
-Requirements: Node.js 20 or newer and npm.
+Requirements: Node.js 20.19+ and npm.
 
 ```sh
 npm install
@@ -27,18 +27,20 @@ npm run build
 
 ## Structure
 
-- `src/` — page behavior, project data, and styles
+- `src/main.js` — page structure and interactions
+- `src/styles.css` — responsive design and themes
+- `src/data/projects.js` — project showcase entries
 - `public/` — static assets
 - `.github/workflows/deploy.yml` — GitHub Pages build and deployment
 
-Projects are maintained as data in `src/data/projects.js`. Each project has a status; planned work is never presented as completed work.
+Projects are data-driven. Each project has a status; planned work is never presented as completed work.
 
 ## Deployment
 
 The repository includes a GitHub Pages workflow. In GitHub, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Each push to `main` builds and deploys the site to the repository's Pages URL.
 
-The Vite base path is configured for the `portfolio` project repository. If the repository name or hosting setup changes, update `base` in `vite.config.js`.
+Vite uses the `/portfolio/` base path for this project repository. Update `vite.config.js` if the repository name or hosting setup changes.
 
-## Personal details
+## Maintaining project entries
 
-Update the contact links and biography in `src/main.js` when needed. Add a project only when its status and evidence are clear: source code, a demo, screenshots, and an accurate case study.
+Edit `src/data/projects.js`. Keep project status accurate. Once a project is real, add its source repository, live demo, screenshots, and a short case study that covers the problem, architecture, key decisions, and limitations.

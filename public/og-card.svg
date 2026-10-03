@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f3ee"/>
+  <path d="M0 520h1200M900 0v630" stroke="#d8d6ce" stroke-width="1"/>
+  <circle cx="900" cy="315" r="190" fill="none" stroke="#dedbd2" stroke-width="2"/>
+  <circle cx="900" cy="315" r="130" fill="none" stroke="#dedbd2" stroke-width="2"/>
+  <circle cx="900" cy="315" r="70" fill="#c65d3a"/>
+  <text x="88" y="210" fill="#252b29" font-family="Arial,sans-serif" font-size="26" letter-spacing="5">CODERAFT LABS</text>
+  <text x="88" y="315" fill="#252b29" font-family="Arial,sans-serif" font-size="62" font-weight="700">Software, AI</text>
+  <text x="88" y="390" fill="#252b29" font-family="Arial,sans-serif" font-size="62" font-weight="700">&amp; Automation</text>
+  <text x="88" y="462" fill="#646b66" font-family="Arial,sans-serif" font-size="24">Useful systems. Thoughtful engineering.</text>
+</svg>
